@@ -1,0 +1,48 @@
+@import url(whitespace.css);
+
+body {
+	font-family: "Montserrat", Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+/*** Header ***/
+
+header {
+	text-transform: uppercase;
+	color: white;
+	background-color: #3D3D3D;
+	text-align: center;
+}
+
+header img {
+	padding: 50px 0 130px 0;
+}
+
+h1 {
+	font-size: 4.25rem;
+	padding-top: 140px;
+}
+
+ul {
+	padding-bottom: 50px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 25px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.25rem;
+}
+
+a:hover {
+	color: #F5DC39;
+}
+
+a.selected {
+	color: #32FFE3;
+}
